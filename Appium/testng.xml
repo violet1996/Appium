@@ -2,5 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <classes>
+      <class name="Begineer.Appium.MisceallllanousAppiumActions"/>
+      <class name="Begineer.Appium.AppiumBasics"/>
+      <class name="Begineer.Appium.ScrollDemo"/>
+      <class name="Begineer.Appium.LongPress"/>
+      <class name="Begineer.Appium.SwipeDemo"/>
+      <class name="Begineer.Appium.DragDropDemo"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
